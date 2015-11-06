@@ -10,6 +10,7 @@ setup(
     packages=find_packages(),
     tests_require=[
         'requests',
-    ]
+    ],
+    test_suite='testmonkey.tests',
 )
 

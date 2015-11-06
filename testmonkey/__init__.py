@@ -6,7 +6,7 @@ from multiprocessing import Pipe
 from threading import Thread
 try:
     from http import server as BaseHTTPServer
-except ImportError:
+except ImportError:  # pragma: no cover
     import BaseHTTPServer
 
 
